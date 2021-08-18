@@ -2,7 +2,7 @@
 layout: post
 title: 创建文章并部署到Github
 date: 2021-08-18 14:52:56
-tags: github,heox
+tags: [github,heox]
 ---
 
 ### 将项目关联到github
