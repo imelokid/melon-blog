@@ -101,6 +101,9 @@ favicon:
   apple:
     url: /images/apple-touch-icon.png
     gravatar: false
+    
+logo_mk:
+  url: /images/logo.png
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
@@ -181,3 +184,7 @@ cdn:
 
 # busuanzi
 busuanzi_url: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+# Valine
+Valine_url: //unpkg.com/valine/dist/Valine.min.js
+
