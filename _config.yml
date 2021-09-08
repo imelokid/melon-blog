@@ -111,4 +111,4 @@ mathjax: true
 math:
   engine: 'mathjax'
   mathjax:
-    src: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML
+    src: https://cdn.staticfile.org/mathjax/2.7.4/MathJax.js
