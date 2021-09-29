@@ -16,6 +16,7 @@ f(x)=nums[x]。否则，f(x) = nums + f(x - 1)。即：
 
 如下图：输入数组[-2, 1, -3, 4, -1, 2, 1, -5, 4]
 ![image.png](https://cdn.nlark.com/yuque/0/2021/png/127227/1632104096277-b6042c47-985f-475d-be2e-01cb3d553ac9.png#clientId=uaef0fc2c-b6dd-4&from=paste&height=461&id=ua4445c46&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1036&originWidth=840&originalType=binary&ratio=1&size=103467&status=done&style=none&taskId=u5e4af402-0fc1-40b3-a94d-5b466cdbfd1&width=10)
+
 ![image.png](https://cdn.nlark.com/yuque/0/2021/png/127227/1632104121655-73ea4ddc-44e4-4771-aef1-c19c43ff3828.png#clientId=uaef0fc2c-b6dd-4&from=paste&height=457&id=u941e6fa6&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1066&originWidth=770&originalType=binary&ratio=1&size=102802&status=done&style=none&taskId=u9e875546-cc27-419f-889b-f3eab34249b&width=10)
 
 ![image.png](https://cdn.nlark.com/yuque/0/2021/png/127227/1632104200845-ac2c493d-4d9b-47b1-a42a-fed726783ef8.png#clientId=uaef0fc2c-b6dd-4&from=paste&height=451&id=u17c308e0&margin=%5Bobject%20Object%5D&name=image.png&originHeight=948&originWidth=754&originalType=binary&ratio=1&size=92766&status=done&style=none&taskId=ubb39f718-b2ca-4c43-8133-23f148b874e&width=10)

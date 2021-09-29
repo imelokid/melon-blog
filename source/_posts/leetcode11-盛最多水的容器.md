@@ -36,7 +36,7 @@ public int maxArea(int[] height) {
 #### 双指针法：
 两个指针同时指向数组的首尾(i, j)，计算好面积后调整窗口后继续计算容积。调整方式为：<br />![](https://cdn.nlark.com/yuque/__latex/466e2d102dce85d581702316561144f3.svg#card=math&code=adjust%28i%2C%20j%29%20%3D%0A%5Cbegin%7Bcases%7D%0Ai%20-%3E%20i1%2C%20%20%28i%3Cj%29%20%26%20%5Ctext%7B%E5%B7%A6%E8%BE%B9%E7%95%8C%E5%8F%B3%E6%BB%91%7D%5C%5C%0Aj%20-%3E%20j1%2C%20%28i%20%3E%20j%29%20%26%20%5Ctext%7B%E5%8F%B3%E8%BE%B9%E7%95%8C%E5%B7%A6%E6%BB%91%7D%20%5C%5C%0Ai%20-%3E%20i1%2C%20%28i%20%3D%20j%29%20%26%20%5Ctext%7B%E7%A7%BB%E5%8A%A8%E5%B7%A6%E5%8F%B3%E7%AA%97%E5%8F%A3%E9%83%BD%E5%8F%AF%E4%BB%A5%EF%BC%8C%E8%BF%99%E9%87%8C%E7%A7%BB%E5%8A%A8%E5%B7%A6%E8%BE%B9%E7%95%8C%7D%0A%5Cend%7Bcases%7D&id=d5X3n)<br />​
 
-双指针法计算证明：<br />设数组第i，j个元素分别为：f(i), f(j); 那么由左右边界构成的矩形面积为 <br />![](https://cdn.nlark.com/yuque/__latex/f1a22b35b239f198c1eaa20853707580.svg#card=math&code=area%3DMath.min%28f%28i%29%2C%20f%28j%29%29%20%2A%20%28j%20-%20i%29&id=TNcGZ)
+双指针法计算证明：<br />设数组第i，j个元素分别为：f(i), f(j); 那么由左右边界构成的矩形面积为: <br />![](https://cdn.nlark.com/yuque/__latex/f1a22b35b239f198c1eaa20853707580.svg#card=math&code=area%3DMath.min%28f%28i%29%2C%20f%28j%29%29%20%2A%20%28j%20-%20i%29&id=TNcGZ)
 ```shell
 假设f(i) <= f(j)，min(f(i), f(j)) = f(i)
 此时如果将右边界左移，j -> j1   
