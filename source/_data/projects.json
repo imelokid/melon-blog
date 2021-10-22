@@ -1,12 +1,15 @@
 [
+
+   {
+      "name":"melon-study",
+      "url":"https://github.com/imelonkid/melon-study",
+      "desc":"学习项目"
+   },
+
     {
-       "name":"Hexo",
-       "url":"https://hexo.io/",
-       "desc":"A fast, simple & powerful blog framework"
-    },
-    {
-       "name":"Font Awesome",
-       "url":"http://fontawesome.io/",
-       "desc":"The iconic font and CSS toolkit"
+       "name":"melon-commons-lang",
+       "url":"https://github.com/imelonkid/melon-commons-lang",
+       "desc":"通用工具项目"
     }
+    
 ]

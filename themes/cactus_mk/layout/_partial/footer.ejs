@@ -5,7 +5,7 @@
     <% var startYear = (theme.copyright && theme.copyright.start_year) ? theme.copyright.start_year : new Date().getFullYear() %>
     <%= startYear >= endYear ? endYear : startYear + "-" + endYear %>
     <%= config.author || config.title %>
-    <span>京ICP备16017845号</span>
+    <span><a style="text-decoration:none;" href="https://beian.miit.gov.cn/">京ICP备16017845号</a></span>
     <span id="busuanzi_container_site_pv" style='display:none'>uv:<span id="busuanzi_value_site_uv"></span>
     </span>
   </div>
