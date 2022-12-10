@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://www.melonkid.cn/
 permalink: :year:month:day:hour:minute:second/:hash/
 permalink_defaults:
 pretty_urls:
@@ -102,9 +102,9 @@ theme: cactus_mk
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: git@github.com:imelokid/imelonkid.github.io.git
-  branch: [main]
+  type: baidu_url_submitter
+  # repo: git@github.com:imelokid/imelonkid.github.io.git
+  # branch: [main]
 
 # MathJax
 mathjax: true
@@ -112,3 +112,16 @@ math:
   engine: 'mathjax'
   mathjax:
     src: https://cdn.staticfile.org/mathjax/2.7.4/MathJax.js
+
+# sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: sitemap-baidu.xml
+
+# 百度提交
+baidu_url_submit:
+  count: 100 # 提交最新的一个链接
+  host: www.melonkid.cn # 在百度站长平台中注册的域名
+  token: lU6XRiXGff3oUgXd # 请注意这是您的秘钥，所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt # 文本文档的地址，新链接会保存在此文本文档里
