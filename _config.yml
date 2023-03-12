@@ -3,7 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: MelonKid`Blog
+title: 朝花夕拾
+# 网站Header标题
+htitle: MelonKid`Blog
 subtitle: 'Live&Love'
 description: 'A Development Engineer, a Life Liver, a Hope Holder'
 keywords:
