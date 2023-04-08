@@ -50,7 +50,7 @@ post_copyright:
 mathjax:
   enable: true
   per_page: true
-  cdn: https://cdn.staticfile.org/KaTeX/0.16.4/katex.min.js
+  cdn: //cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # Verification (站长验证)
 site_verification:
