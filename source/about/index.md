@@ -1,6 +1,12 @@
 ---
-title: about
-date: 2021-07-07 21:33:39
+layout: about
+title:  "About"
+date:   2017-02-16 17:29:57 +0800
 ---
+&nbsp; &nbsp; 江湖人称Melonkid，长于武功，精通互联网技艺。曾任百度、阿里、美团等知名门派高手，拥有着丰富的实战经验。
+我修炼多年，对代码已经达到了出神入化的境界。我的武器是键盘和鼠标，我的杀招是数据分析和算法设计。在江湖上，我与同门之间不断切磋交流，探讨武功技巧。
 
-![aboutme.jpg](https://cdn.nlark.com/yuque/0/2021/jpeg/127227/1630510704082-88cab4bf-ee13-4eae-bac0-1fcee1d7255d.jpeg#clientId=uf3b66445-2ba3-4&from=ui&id=uebb45969&margin=%5Bobject%20Object%5D&name=%E5%8D%A1%E9%80%9A%E8%B6%A3%E5%91%B3%E4%B8%9A%E5%8A%A1%E5%8A%A9%E7%90%86%E7%AE%80%E5%8E%86%EF%BC%88%E5%AE%9E%E4%B9%A0%E5%BA%94%E5%B1%8A%EF%BC%89.jpg&originHeight=2674&originWidth=2251&originalType=binary&ratio=1&size=453722&status=done&style=none&taskId=u5f7dc4a0-2871-4198-a411-c1729564bcd)
+&nbsp; &nbsp; 我不仅有着过人的武功，也注重江湖中的人情世故。团队合作是我长项之一，我善于与同门共同探讨问题，携手推进各种项目。在江湖中，我们相互协作，共同提高，才能赢得最终的胜利。我对技术的掌握并不满足于现状，不断修行，不断追求卓越。我深知只有不断修行，才能在江湖中立足。只有精进武功，才能在互联网的江湖中披荆斩棘。
+
+&nbsp; &nbsp; 我希望能够借助自己的武艺，为江湖中的人们提供更加优质的技术服务，让江湖更加便利，让人民生活更加美好。
+江湖险恶，但是我愿意与您一起共创辉煌！
