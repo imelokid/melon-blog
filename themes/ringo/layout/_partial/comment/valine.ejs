@@ -1,0 +1,24 @@
+<div id="comment" style='padding:10px;' class="vcomment"></div>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+    let GUEST_INFO = ['nick','mail','link'];
+    let guest_info = '<%= theme.valine.guest_info %>'.split(',').filter(function(item){
+        return GUEST_INFO.indexOf(item) > -1
+    });
+    new Valine({
+        el: '.vcomment',
+        appId: "<%= theme.valine.appId %>",
+        appKey: "<%= theme.valine.appKey%>",
+        placeholder: "<%= theme.valine.placeholder%>",
+        meta: "<%= theme.valine.guest_info%>".split(','),
+        pageSize: "<%= theme.valine.pageSize%>",
+        lang: "<%= theme.valine.lang%>",
+        recordIP: "<%= theme.valine.recordIP%>",
+        serverURLs: "<%= theme.valine.serverURLs%>",
+        emojiCDN: "<%= theme.valine.emojiCDN%>",
+        enableQQ: "<%= theme.valine.enableQQ%>",
+        path: window.location.pathname,
+        visitor: "<%= theme.valine.visitor%>",
+        avatar:'mp' // (''/mp/identicon/monsterid/wavatar/robohash/retro)
+      });
+</script>
