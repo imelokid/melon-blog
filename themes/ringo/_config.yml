@@ -75,7 +75,7 @@ fancybox: false
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: 0c685a5ed531d347653d1dcb1852e488
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/

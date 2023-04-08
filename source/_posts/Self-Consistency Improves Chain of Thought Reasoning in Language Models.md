@@ -1,5 +1,5 @@
 ---
-title: 自一致性对COT语言模型的提示
+title: 自一致性对COT语言模型的优化和提升
 date: 2023-04-08 23:33:48
 tags: [OpenAI, ChatGPT, "自一致性"]
 ---
