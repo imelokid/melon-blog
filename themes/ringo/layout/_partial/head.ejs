@@ -7,6 +7,7 @@
     <% if (theme.canonical === true) { %> 
         <link rel="canonical" href="<%= full_url_for(page.path).replace('index.html', '') %>">
     <% } %> 
+    <%- css("https://melon-note-1304191985.cos.ap-beijing.myqcloud.com/node-lbs/bootstrap3/dist/css/bootstrap.min.css") %>
     <%- css("css/grid.css") %>
     <%- css("css/custom.css") %>
     <%- css("css/ringo.css") %>
