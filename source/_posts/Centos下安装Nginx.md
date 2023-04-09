@@ -71,7 +71,7 @@ sudo tar -zxvf  nginx-1.11.5.tar.gz # 解压缩复制代码在完成解压缩后
 cd nginx-1.11.5
 ./configure --prefix=/usr/local/nginx # 检查平台安装环境
 # --prefix=/usr/local/nginx  是 nginx 编译安装的目录（推荐），安装完后会在此目录下生成相关文件复制代码如果前面的依赖库都安装成功后，执行 ./configure --prefix=/usr/local/nginx 命令会显示一些环境信息。如果出现错误，一般是依赖库没有安装完成，可按照错误提示信息进行所缺的依赖库安装。
-进行源码编译并安装 nginx
+# 进行源码编译并安装 nginx
 make # 编译
 make install # 安装复制代码源码包安装与 yum 安装的 nginx 服务操作命令也不同。
 ```
@@ -99,9 +99,9 @@ ps -ef | grep nginx # 查看服务进程
 
 ---
 
-腾讯云服务器是源码安装，tar包在/home/melonkid/lib/nginx-1.9.9.tar.gz \
-安装目录：/usr/local/nginx \
-配置目录：/usr/local/nginx/conf \
+腾讯云服务器是源码安装，tar包在/home/melonkid/lib/nginx-1.9.9.tar.gz  
+安装目录：/usr/local/nginx  
+配置目录：/usr/local/nginx/conf  
 可执行程序目录: /usr/local/nginx/sbin 
 
 

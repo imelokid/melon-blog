@@ -123,31 +123,31 @@ public interface TestSPIServer {
 
 2. 定义不同的SPI实现 Impl1、Impl2
 ```java
-/**
- * @describe:
- * @author: melonkid
- * @date: 2022/12/6 11:30
- */
-public class TestSPIServerImpl1 implements TestSPIServer {
+    /**
+     * @describe:
+     * @author: melonkid
+     * @date: 2022/12/6 11:30
+     */
+    public class TestSPIServerImpl1 implements TestSPIServer {
 
-    @Override
-    public void sayHello() {
-        System.out.println("hello TestSPIServerImpl1");
+        @Override
+        public void sayHello() {
+            System.out.println("hello TestSPIServerImpl1");
+        }
     }
-}
 
-/**
- * @describe:
- * @author: melonkid
- * @date: 2022/12/6 11:30
- */
-public class TestSPIServerImpl2 implements TestSPIServer {
+    /**
+     * @describe:
+     * @author: melonkid
+     * @date: 2022/12/6 11:30
+     */
+    public class TestSPIServerImpl2 implements TestSPIServer {
 
-    @Override
-    public void sayHello() {
-        System.out.println("hello TestSPIServerImpl2");
+        @Override
+        public void sayHello() {
+            System.out.println("hello TestSPIServerImpl2");
+        }
     }
-}
 ```
 
 3. 配置SPI实现，在实现类所在的包resources/MATE-INF/services/路径下添加cn.melonkid.study.TestSPIServer文件
@@ -191,12 +191,12 @@ Disconnected from the target VM, address: '127.0.0.1:50691', transport: 'socket'
 
 获取用户信息 -> 校验推送 -> 加载推送规则 -> 获取推送模板 -> 获取广告内容 -> 组装广告
 
-|业务用例| 描述 | 是否可做扩展点|
-|---|---|---|
-| 获取用户信息| 加载用户信息，用来为后续推送决策提供基础数据|否|
-| 推送校验| 判断推送功能是否降级，当前用户是否可以推送；如果可以推送，获取用户的个性化推送策略|否|
-| 加载推送规则| 根据用户信息和推送策略加载推送规则，规则一般维护在平台侧，由平台运营同学根据情况进行配置|否|
-| 获取推送模版| 根据规则加载广告模板，模板可能维护在平台侧或则也可以维护在业务侧；维护在业务侧的好处是业务可以灵活的调整模板|是|
-| 获取广告内容| 根据模板，获取广告内容；内容最好也维护在业务侧。因为广告内容业务个性化比较重。平台不应该感知业务细节|是|
-| 组装广告| 模板引擎对广告进行解析和组装，最终生产广告数据|否|
+| 业务用例     | 描述                                                                                                         | 是否可做扩展点 |
+| ------------ | ------------------------------------------------------------------------------------------------------------ | -------------- |
+| 获取用户信息 | 加载用户信息，用来为后续推送决策提供基础数据                                                                 | 否             |
+| 推送校验     | 判断推送功能是否降级，当前用户是否可以推送；如果可以推送，获取用户的个性化推送策略                           | 否             |
+| 加载推送规则 | 根据用户信息和推送策略加载推送规则，规则一般维护在平台侧，由平台运营同学根据情况进行配置                     | 否             |
+| 获取推送模版 | 根据规则加载广告模板，模板可能维护在平台侧或则也可以维护在业务侧；维护在业务侧的好处是业务可以灵活的调整模板 | 是             |
+| 获取广告内容 | 根据模板，获取广告内容；内容最好也维护在业务侧。因为广告内容业务个性化比较重。平台不应该感知业务细节         | 是             |
+| 组装广告     | 模板引擎对广告进行解析和组装，最终生产广告数据                                                               | 否             |
 
