@@ -26,6 +26,7 @@
         </ul>
         <div class="post-content" itemprop="articleBody">
             <%- lazyloadImage(post.content) %>
+            <br />
             <% if (theme.post_copyright.enable === true) { %> 
                 <blockquote>
                     <p>文章作者：<a href="<%- url_for() %> "> <%- config.author %>  </a></p>
