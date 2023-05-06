@@ -7,7 +7,7 @@ tags: [OpenAI, 公众号, "深度学习", "laf"]
 ### 准备工作
 1. 微信公众号，这个无需多说，网上有比较多的教程，大家可以按照教程自行注册
 2. laf服务，可以通过laf平台购买服务，当然由于laf本身是开源项目，我们也可以自己搭建私有服务(注意，国内无法访问OpenAI，所以自建服务需要走代理或者直接使用国外服务器)。
-本教程使用laf平台服务[laf](laf.dev)
+本教程使用laf平台服务[laf](https://laf.dev)
 
 ### 成品效果
 <img src="https://melon-note-1304191985.cos.ap-beijing.myqcloud.com/note/wechat-bot-01.jpg" style="width:70%" />
