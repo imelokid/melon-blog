@@ -1,7 +1,7 @@
 ---
-title: 微信公众号三分钟接入OpenAI.md
+title: 微信公众号三分钟接入OpenAI
 date: 2023-05-06 19:31
-tags: [OpenAI, 公众号, "深度学习", "机器学习"]
+tags: [OpenAI, 公众号, "深度学习", "laf"]
 ---
 
 ### 准备工作
