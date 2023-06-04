@@ -276,3 +276,7 @@ return xmlStr;
 2. 启用公众号服务器配置
 3. 到微信公众号发送消息，查看公众号是否可以正常响应
 
+
+大家如果不想折腾，也可以关注我的公众号，上手体验一下效果
+<img  src="https://melon-note-1304191985.cos.ap-beijing.myqcloud.com/note/wechat_qrcode.jpg" />
+
