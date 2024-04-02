@@ -1,5 +1,5 @@
 ---
-title: 对Try-Catch-Finally一无所知
+title: 怎么理解Try-Catch-Finally中的返回值
 date: 2024-04-02 10:33:02
 tags: [JAVA]
 ---
@@ -32,6 +32,8 @@ public static void main(String[] args) {
             System.out.println("finally");
             return 3;
         }
+    }
+}
 ```
 
 查看上述代码编译后的字节码
@@ -80,7 +82,7 @@ public class com.shein.luban.common.TryCatchTest {
       39: iconst_3
       40: ireturn
 
-        ####################################### 执行finally ######################################################
+        ####################################### 执行finally ###################################################
       41: astore_2
       42: getstatic     #13                 // Field java/lang/System.out:Ljava/io/PrintStream;
       45: ldc           #27                 // String finally
@@ -111,17 +113,19 @@ public class com.shein.luban.common.TryCatchTest {
 | istore_n/astore_n | 将栈顶的变量放到临时变量表中下标n的位置里 |
 | ireturn | 将栈顶的变量出栈返回 |
 
-#### 异常表
+#### **异常表**
 异常表有几个关键属性，分别如下：
   from: 从字节码哪里开始识别异常
   to:   到字节码哪里结束识别异常
   target: 遇到异常后，要跳转到哪里
   type: 识别的异常类型是啥
 
-整体解释如下：
-0~10: try主体代码，第一行第二行结合起来就是，如果在try中识别到了异常，如果类型是Exception就跳转到字节码第20行继续执行；如果类型不是Exception，那么就跳转到第41行执行。  
+  
+**整体解释如下** ：
+0~10: try主体代码，第一行第二行结合起来就是，如果在try中识别到了异常，并且类型是Exception就跳转到字节码第20行继续执行；  
+如果类型不是Exception，那么就跳转到第41行执行。  
 20行是catch开始的位置，41行是finally开始的位置。
-那么就是如果代码识别的到的异常是Exception类型，就执行catch，否则就执行finally。是不是很简单？O(∩_∩)O~~
+总结就是如果代码识别的到的异常是Exception类型，就执行catch，否则就执行finally。是不是很简单？O(∩_∩)O~~
 
 
 #### try代码块
